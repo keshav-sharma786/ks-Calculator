@@ -1,0 +1,92 @@
+body {
+  background-color: #d2fffe;
+}
+
+.container {
+  height: 770px;
+  width: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: #222522;
+  border: 7px solid maroon;
+}
+
+.screen {
+  width: 500px;
+  height: 35%;
+  background-color: black;
+  border-radius: 30px;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.screen .btn-input {
+  width: 80%;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 150px;
+  background-color: #000;
+  border: 2px solid black;
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.buttons-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  padding-right: 1px;
+  padding-left: 0.3px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 100px;
+  height: 80px;
+  margin: 2.5px;
+  border-radius: 12px;
+  margin-top: 4px;
+  margin-left: 2.5px;
+  font-size: 32px;
+}
+
+.btn-orange {
+  background-color: rgb(245, 146, 62);
+  color: #fff;
+  font-size: 42px;
+}
+
+.btn-white {
+  background-color: rgb(224, 224, 224);
+  color: #000;
+}
+
+.btn-equal {
+  background-color: green;
+  color: #fff;
+}
+
+.btn-clear {
+  background-color: red;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .container,
+  .screen {
+    width: 300px;
+  }
+  .btn {
+    height: 50px;
+    width: 80px;
+  }
+
+  .container {
+    height: 650px;
+    /* margin-bottom: 1000px; */
+  }
+}
